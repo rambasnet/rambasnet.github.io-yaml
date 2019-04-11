@@ -1,5 +1,5 @@
 #header {
-    background-image:url(bg-header.jpg);
+    background-image: url(./bg-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -9,35 +9,32 @@
 }
 
 #footer {
-	clear:both;
-	height:100px;
-    background:url(bg-footer.jpg);
+    clear: both;
+    height: 100px;
+    background: url(./bg-footer.jpg);
     background-repeat: repeat-x;
     background-color: rgb(103, 141, 15);
     height: 100px;
 }
 
-.officehour
-{
-	background:#D0F5A9; 
-	font-weight: bolder; 
+.officehour {
+    background: #d0f5a9;
+    font-weight: bolder;
     text-align: center;
     font-size: 14px;
 }
 
-.schedule
-{
-	background:#FAFFFA; 
+.schedule {
+    background: #fafffa;
     text-align: center;
     font-size: 14px;
 }
 
 #footer {
-    margin-bottom:0;
-    padding-top:45px;
+    margin-bottom: 0;
+    padding-top: 45px;
 }
 
-#currentPage
-{
+#currentPage {
     color: white;
 }
