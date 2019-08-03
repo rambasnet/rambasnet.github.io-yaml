@@ -7,6 +7,18 @@
         element.setAttribute("style", "visibility: hidden;")
     }
 </script>
+<script>
+    var navul = document.getElementById("navul")
+    var alists = navul.getElementsByClassName("nav-link")
+    for (var i = 0; i < alist.length; i++) {
+        alists[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active")
+            current[0].className = current[0].className.replace(" active", "")
+            this.className += " active"
+        })
+    }
+</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -33,12 +45,4 @@
 
     ga("create", "UA-46738331-1", "coloradomesa.edu")
     ga("send", "pageview")
-</script>
-
-<script>
-    $(".nav-link a").each(function() {
-        if ($(this).attr("href") == location.href.split("/").slice(-1)) {
-            $(this).addClass("currentPage")
-        }
-    })
 </script>

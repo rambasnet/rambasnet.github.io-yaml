@@ -35,6 +35,6 @@
     padding-top: 45px;
 }
 
-a.currentPage {
+.active {
     color: white;
 }
