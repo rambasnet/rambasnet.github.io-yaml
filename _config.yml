@@ -1,0 +1,22 @@
+# Build settings
+markdown: kramdown
+
+url: https://rambasnet.github.io # the name of your domain
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics: 
+google_verification:
+
+# Contact form
+api_token: # Enter API token here
+
+
