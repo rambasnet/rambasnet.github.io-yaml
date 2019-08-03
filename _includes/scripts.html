@@ -27,18 +27,13 @@
         .getElementById("navul")
         .getElementsByClassName("nav-item")
     var currentPage = url[url.length - 1]
-    if (currentPage !== "") {
-        for (var i = 0; i < navLinks.length; i++) {
-            var link = navLinks[i].getElementsByClassName("nav-link")[0]
-            var lb = link.href.split("/")
-            if (lb[lb.length - 1] == currentPage) {
-                navLinks[i].className += " active"
-            } else {
-                navLinks[i].className = navLinks[i].className.replace(
-                    " active",
-                    ""
-                )
-            }
+    for (var i = 0; i < navLinks.length; i++) {
+        var link = navLinks[i].getElementsByClassName("nav-link")[0]
+        var lb = link.href.split("/")
+        if (lb[lb.length - 1] == currentPage) {
+            navLinks[i].className += " active"
+        } else {
+            navLinks[i].className = navLinks[i].className.replace(" active", "")
         }
     }
 </script>
