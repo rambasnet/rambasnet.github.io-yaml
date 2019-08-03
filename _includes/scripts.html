@@ -8,6 +8,7 @@
     }
 </script>
 <script>
+    /*
     var navul = document.getElementById("navul")
     var alists = navul.getElementsByClassName("nav-link")
     for (var i = 0; i < alists.length; i++) {
@@ -16,6 +17,23 @@
             current[0].className = current[0].className.replace(" active", "")
             this.className += " active"
         })
+    }
+    */
+    var hrefString = document.location.href
+        ? document.location.href
+        : document.location
+    var url = hrefString.split("/") //replace string with location.href
+    var navLinks = document
+        .getElementsByTagName("navul")[0]
+        .getElementsByTagName("a")
+    var currentPage = url[url.length - 1]
+    for (var i = 0; i < navLinks.length; i++) {
+        var lb = navLinks[i].href.split("/")
+        if (lb[lb.length - 1] == currentPage) {
+            navLinks[i].className += "current"
+        } else {
+            navLinks[i].className = navLinks[i].className.replace(" active", "")
+        }
     }
 </script>
 
