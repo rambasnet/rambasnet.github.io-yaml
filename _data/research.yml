@@ -72,27 +72,27 @@
   pub_info: IJRET - International Journal of Research in Engineering and Technology, Vol. 3, Issue 6, June 2014
 
 - title: Mining Web to Detect Phishing URLs
-  url: research/MiningWebToDetectPhishingURLs.pdf
+  url: pdfs/MiningWebToDetectPhishingURLs.pdf
 	author: Ram B. Basnet and Andrew H. Sung
   pub_info: Proceedings of the 11th International Conference on Machine Learning and Applications (ICMLA), pp. 568-573. Boca Raton, FL, USA 2012
 
 - title: Feature Selection for Improved Phishing Detection
-  url: research/FeatureSelectionForImprovedPhishingDetection.pdf
+  url: pdfs/FeatureSelectionForImprovedPhishingDetection.pdf
   author:  Ram B. Basnet, Andrew H. Sung, and Quingzhong Liu
   pub_info: Proceedings of the 25th International Conference on Industrial, Engineering &amp; Other Applications of Applied Intelligent Systems (IEA/AIE 2012), pp. 252-261. Dalian, China, Jun. 2012        
 
 - title: Rule-Based Phishing Attack Detection
-  url: research/RuleBasedPhishingAttackDetectionFinal.pdf
+  url: pdfs/RuleBasedPhishingAttackDetectionFinal.pdf
   author: Ram B. Basnet, Andrew H. Sung, and Quingzhong Liu
   pub_info: Proceedings of the International Conference on Security and Management-SAM'11, pp. 624-630, Las Vegas, NV, USA, Jul. 2011       
 
 - title: Classifying Phishing Emails Using Confidence-Weighted Linear Classifiers
-  url: research/PhishingEmailCWLC.pdf
+  url: pdfs/PhishingEmailCWLC.pdf
   author: Ram B. Basnet and Andrew H. Sung
   pub_info: Proceedings of the International Conference on Information Security and Artificial Intelligence (ISAI 2010), Vol. 1, pp. 108-112. Chengdu, China, Dec. 2010         
 
 - title: Event Detection and Localization Using Sensor Networks
-  url: research/EventDetectionAndLocalizationUsingSensorNetworks.pdf
+  url: pdfs/EventDetectionAndLocalizationUsingSensorNetworks.pdf
 	author:	Ram B. Basnet and Srinivas Mukkamala
   pub_info: Proceedings of International Conference on Wireless Networks, Vol. II, pp. 103-108, Las Vegas, Nevada, USA, Jul. 2009  
 
@@ -107,16 +107,16 @@
   pub_info: Proceedings of Second International Conference on Information Systems Technology and Management, 2008.       
 
 - title: Detection of Phishing Attacks - A Machine Learning Approach
-  url: research/DetectionOfPhishingAttacks.pdf
+  url: pdfs/DetectionOfPhishingAttacks.pdf
   author: Ram B. Basnet, Srinivas Mukkamala, and Andrew. H. Sung
   pub_info: Soft Computing Applications in Industry, Springer, pp. 373-383, 2008.      
 
 - title: Detecting Coordinated Distributed Multiple Attacks
-  url: research/DetectingCDMAAttacks.pdf
+  url: pdfs/DetectingCDMAAttacks.pdf
   author: S. Mukkamala, K. Yendrapalli, R. B. Basnet, A. H. Sung
   pub_info: 21st International Conference on Advanced Information Networking and Applications (AINA 2007), Vol. 1, Niagara Falls, Canada, May 2007.        
 
 - title: Detection of Virtual Environments and Low Interaction Honeypots
-  url: research/DetectingHoneypots.pdf
+  url: pdfs/DetectingHoneypots.pdf
 	author: S. Mukkamala, K. Yendrapalli, R. B. Basnet, M. K. Shankarpani, A. H. Sung
   pub_info: Information Assurance and Security Workshop, IEEE SMC, Vol. 1, pp. 92-98, West Point, NY, June 2007.        
