@@ -1,4 +1,10 @@
 <script>
+    $(".nav-link a").each(function() {
+        if ($(this).attr("href") == location.href.split("/").slice(-1)) {
+            $(this).addClass("currentPage")
+        }
+    })
+
     var dt = new Date()
     document.getElementById("year").innerHTML = dt.getFullYear()
     var windowSize = window.matchMedia("(max-width: 375px)")
