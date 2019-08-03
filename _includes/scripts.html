@@ -27,12 +27,17 @@
         .getElementById("navul")
         .getElementsByClassName("nav-link")
     var currentPage = url[url.length - 1]
-    for (var i = 0; i < navLinks.length; i++) {
-        var lb = navLinks[i].href.split("/")
-        if (lb[lb.length - 1] == currentPage) {
-            navLinks[i].className += "current"
-        } else {
-            navLinks[i].className = navLinks[i].className.replace(" active", "")
+    if (currentPage !== "") {
+        for (var i = 0; i < navLinks.length; i++) {
+            var lb = navLinks[i].href.split("/")
+            if (lb[lb.length - 1] == currentPage) {
+                navLinks[i].className += " currentPage"
+            } else {
+                navLinks[i].className = navLinks[i].className.replace(
+                    " currentPage",
+                    ""
+                )
+            }
         }
     }
 </script>
