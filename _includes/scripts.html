@@ -24,8 +24,8 @@
         : document.location
     var url = hrefString.split("/") //replace string with location.href
     var navLinks = document
-        .getElementsByTagName("navul")[0]
-        .getElementsByTagName("a")
+        .getElementById("navul")
+        .getElementsByClassName("nav-link")
     var currentPage = url[url.length - 1]
     for (var i = 0; i < navLinks.length; i++) {
         var lb = navLinks[i].href.split("/")
