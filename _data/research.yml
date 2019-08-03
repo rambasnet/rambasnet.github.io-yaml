@@ -31,14 +31,12 @@
 - title: Towards examining learner behaviors in a medical intelligent tutoring system - A Hidden Markov Model approach
   url: pdfs/IEEEIACC_HMM.pdf
   author: T. Doleck, R. Basnet, E. Poitras, S. Lajoie
-  pub_info: In Proc. of the 2015 IEEE International Conference on Advance Computing Conference (IACC 2015),
-                  June 2015, Banglore, India
+  pub_info: In Proc. of the 2015 IEEE International Conference on Advance Computing Conference (IACC 2015), June 2015, Banglore, India
 
 - title: The Critical Feature Dimension and Critical Sampling Problems
   url: https://www.researchgate.net/publication/282953973_The_Critical_Feature_Dimension_and_Critical_Sampling_Problems
   author: B. M. Ribeiro, A. Sung, D. Suryakumar and R. Basnet
-  pub_info: In Proc. of the International Conference on Pattern Recognition Applications and Methods (ICPRAM 2015), 
-                January 2015, Lisbon, Protugal.
+  pub_info: In Proc. of the International Conference on Pattern Recognition Applications and Methods (ICPRAM 2015), January 2015, Lisbon, Protugal.
 
 - title: Towards Developing a Tool to Detect Phishing URLs- A Machine Learning Approach
 	url: pdfs/IEEECICTPhishingTools.pdf
@@ -118,5 +116,5 @@
 
 - title: Detection of Virtual Environments and Low Interaction Honeypots
   url: pdfs/DetectingHoneypots.pdf
-	author: S. Mukkamala, K. Yendrapalli, R. B. Basnet, M. K. Shankarpani, A. H. Sung
+  author: S. Mukkamala, K. Yendrapalli, R. B. Basnet, M. K. Shankarpani, A. H. Sung
   pub_info: Information Assurance and Security Workshop, IEEE SMC, Vol. 1, pp. 92-98, West Point, NY, June 2007.        
