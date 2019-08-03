@@ -31,8 +31,7 @@ layout: default
             {% for article in site.data.research %}
             <tr>
               <td>
-                <a href="{{ article.pub_url }}" target="_blank">{{ article.title }}</a><br />
-                <a href="{{ article.pdf_url }} target="_blank">PDF</a><br />
+                <a href="{{ article.url }}" target="_blank">{{ article.title }}</a><br />
                 {{ article.author }}<br />
                 <em> {{ article.pub_info }} </em>
               </td>
