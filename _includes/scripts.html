@@ -32,10 +32,10 @@
             var link = navLinks[i].getElementsByClassName("nav-link")[0]
             var lb = link.href.split("/")
             if (lb[lb.length - 1] == currentPage) {
-                navLinks[i].className += " currentPage"
+                navLinks[i].className += " active"
             } else {
                 navLinks[i].className = navLinks[i].className.replace(
-                    " currentPage",
+                    " active",
                     ""
                 )
             }
