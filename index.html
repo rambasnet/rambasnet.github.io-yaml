@@ -64,57 +64,14 @@ layout: default
                     </tr>
                 </thead>
                 <tbody>
+                    {% for exp in site.data.background %}
                     <tr>
-                        <td>2018 - Present</td>
-                        <td>Associate Professor, CMU</td>
-                    </tr>
-                    <tr>
-                        <td>2013 - 2017</td>
-                        <td>Assistant Professor, CMU</td>
-                    </tr>
-                    <tr>
-                        <td>2014 - Present</td>
+                        <td>{{ exp.date }}</td>
                         <td>
-                            <a
-                                href="http://www.colemanfoundation.org/what_we_fund/entrepreneurship/overview.html"
-                                target="_blank"
-                                >Coleman Fellow of Entrepreneurship Education</a
-                            >
+                            {{ exp.title }}
                         </td>
                     </tr>
-                    <tr>
-                        <td>2013 - 2017</td>
-                        <td>
-                            Founder & Principal Consultant, iSecureUs, LLC
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2012 - 2013</td>
-                        <td>CTO, Sage Technology Partners, Inc.</td>
-                    </tr>
-                    <tr>
-                        <td>2010 - 2011</td>
-                        <td>
-                            PhD, New Mexico Tech, (Detecting Phishing Attacks)
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2008 - 2010</td>
-                        <td>
-                            Research Scientist II, ICASA, New Mexico Tech
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2005 - 2007</td>
-                        <td>MS, Computer Science, New Mexico Tech</td>
-                    </tr>
-                    <tr>
-                        <td>2001 - 2004</td>
-                        <td>
-                            BS, Computer Science, Colorado Mesa University
-                            (Minor in Math)
-                        </td>
-                    </tr>
+                    {% endfor %}
                 </tbody>
             </table>
             <br />
