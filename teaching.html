@@ -52,13 +52,16 @@ layout: default
                         </tr>
                     </thead>
                     <tbody>
-                        {% for time in site.data.teaching %}
-                        <th>{{ time.time }}</th>
-                        {% for class in time.classes %}
-                        <td width="16%" class="{{ class.css }}" rowspan="2">
-                            {{ class.name }}<br />{{ class.loc }}
-                        </td>
-                        {% endfor %} {% endfor %}
+                        {% for time in site.data.schedule %}
+                        <tr>
+                            <th>{{ time.time }}</th>
+                            {% for class in time.classes %}
+                            <td width="16%" class="{{ class.css }}" rowspan="2">
+                                {{ class.name }}<br />{{ class.loc }}
+                            </td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
                     </tbody>
                 </table>
             </div>
