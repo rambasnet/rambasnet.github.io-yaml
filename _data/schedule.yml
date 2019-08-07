@@ -25,3 +25,128 @@
 
 - time: "9:00"
   classes:
+      - name: Ad Py #M
+        loc: WS 118
+        css: schedule
+
+      - name: Off. Hr. #T
+        loc: CH 321
+        css: officehour
+
+      - name: Ad Py #W
+        loc: WS 118
+        css: schedule
+
+      - name: Off. Hr. #R
+        loc: CS 321
+        css: officehour
+
+      - name: CS0 #F
+        loc: WS 120
+        css: schedule
+- time: "9:30"
+  classes:
+
+- time: "10:00"
+  classes:
+      - name: #M
+        loc:
+        css:
+
+      - name: Off. Hr. #T
+        loc: CH 321
+        css: officehour
+
+      - name: #W
+        loc:
+        css:
+
+      - name: #R
+        loc:
+        css:
+
+      - name: #F
+        loc:
+        css:
+
+- time: "10:30"
+  classes:
+
+- time: "11:00"
+  classes:
+      - name: Net/App Sec #
+        loc: WS 205
+        css: schedule
+      - name:
+        loc:
+        css:
+      - name: Net/App Sec #
+        loc: WS 205
+        css: schedule
+      - name:
+        loc:
+        css:
+      - name: Net/App Sec #
+        loc: WS 205
+        css: schedule
+
+- time: "11:30"
+  classes:
+
+- time: "12:00"
+  classes:
+
+- time: "12:30"
+  classes:
+
+- time: "1:00"
+  classes:
+      - name: CS 3
+        loc: CH 276
+        css: schedule
+      - name:
+        loc:
+        css:
+      - name: CS 3
+        loc: CH 276
+        css: schedule
+      - name:
+        loc:
+        css:
+      - name: CS 3
+        loc: CH 276
+        css: schedule
+
+- time: "1:30"
+  classes:
+
+- time: "2:00"
+  classes:
+      - name: Off. Hr. #T
+        loc: CH 321
+        css: officehour
+
+      - name: #T
+        loc:
+        css:
+
+      - name: #W
+        loc:
+        css:
+
+      - name: #R
+        loc:
+        css:
+
+      - name: #F
+        loc:
+        css:
+
+- time: "2:30"
+  classes:
+
+- time: "3:00"
+  classes:
+
+- time: "3:30"
+  classes:
