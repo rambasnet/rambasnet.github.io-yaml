@@ -95,6 +95,25 @@
 
 - time: "12:00"
   classes:
+      - name: #T
+        loc:
+        css:
+
+      - name: #W
+        loc:
+        css:
+
+      - name: #R
+        loc:
+        css:
+
+      - name: #F
+        loc:
+        css:
+
+      - name: #F
+        loc:
+        css:
 
 - time: "12:30"
   classes:
@@ -147,6 +166,25 @@
 
 - time: "3:00"
   classes:
+      - name: #T
+        loc:
+        css:
+
+      - name: #W
+        loc:
+        css:
+
+      - name: #R
+        loc:
+        css:
+
+      - name: #F
+        loc:
+        css:
+
+      - name: #F
+        loc:
+        css:
 
 - time: "3:30"
   classes:
