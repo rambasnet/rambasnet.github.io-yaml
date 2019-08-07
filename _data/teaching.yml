@@ -1,0 +1,24 @@
+- time: 8:00
+  classes:
+      - name: CS0 #M
+        loc: WS 120
+        css: schedule
+
+      - name: CS0-L #T
+        loc: WS 120
+        css: schedule
+
+      - name: CS0 #W
+        loc: WS 120
+        css: schedule
+
+      - name: CS0-L #R
+        loc: WS 120
+        css: schedule
+
+      - name: CS0 #F
+        loc: WS 120
+        css: schedule
+
+- time: 8:30
+  classes:
