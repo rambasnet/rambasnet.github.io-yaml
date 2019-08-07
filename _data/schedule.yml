@@ -38,12 +38,13 @@
         css: schedule
 
       - name: Off. Hr. #R
-        loc: CS 321
+        loc: CH 321
         css: officehour
 
-      - name: CS0 #F
-        loc: WS 120
-        css: schedule
+      - name: Off. Hr. #F
+        loc: CH 321
+        css: officehour
+
 - time: "9:30"
   classes:
 
