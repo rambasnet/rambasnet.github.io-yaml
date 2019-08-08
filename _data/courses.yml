@@ -3,7 +3,7 @@
 - course: CSCI 110 - Beg. Prog. Python & Lab
   times: 6
 - course: CS1 - Foundation of CS
-  times: 6
+  times: 7
 - course: CS2 - Data Structures
   times: 7
 - course: CSCI 206 - Web Page II
@@ -11,8 +11,8 @@
 - course: CS3 - Intro to Algorithms
   times: 2
 - course: CSCI 310 - Adv. Prog. Python
-  times: 5
+  times: 7
 - course: CSCI 420 - Cyber Security
-  times: 4
+  times: 5
 - course: CSCI 465 - Net/App Security
-  times: 3
+  times: 5
