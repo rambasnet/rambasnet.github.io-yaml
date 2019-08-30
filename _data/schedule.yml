@@ -30,7 +30,7 @@
         css: schedule
 
       - name: Off. Hr. #T
-        loc: WS 116 (CRL)
+        loc: CH 321
         css: officehour
 
       - name: Ad Py #W
@@ -42,7 +42,7 @@
         css: officehour
 
       - name: Off. Hr. #F
-        loc: CH 321
+        loc: WS 116 (CRL)
         css: officehour
 
 - time: "9:30"
