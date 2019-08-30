@@ -30,7 +30,7 @@
         css: schedule
 
       - name: Off. Hr. #T
-        loc: CH 321
+        loc: WS 115 - CRL
         css: officehour
 
       - name: Ad Py #W
