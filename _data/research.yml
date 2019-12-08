@@ -4,19 +4,19 @@
   pub_info: Journal of Internet Services and Information Security, Vol. 9, No. 4, Nov. 2019
 
 - title: Predictive analytics in education - a comparison of deep learning frameworks
-  url: https://link.springer.com/article/10.1007/s10639-019-10068-4
+  url: pdfs/DeepLearningEducation.pdf
   author: T. Doleck, D. J. Lemay, R. B. Basnet, and P. Bazelais
   pub_info: Education and Inforamtion Technologies, SpringerLink, pp. 1-13, Nov. 2019
+
+- title: Social network analysis of twitter use during the AERA 2017 annual conference
+  url: https://rdcu.be/4jhu
+  author: D. J. Lemay, R. B. Basnet, T. Doleck, and P. Bazelais
+  pub_info: Education and Information Technologies, Springer US 24 (1) 459-470, Jan. 2019
 
 - title: Developing Next Generation of Innovators - Teaching Entrepreneurial Mindset Elements across Disciplines
   url: http://www.sciedu.ca/journal/index.php/ijhe/article/view/13967/8797
   author: L. S. Nadelson, A. Palmer, T. Benton, R. Basnet, M. Bissonette, et al.
   pub_info: International Journal of Higher Education, Sept. 2018
-
-- title: Social network analysis of twitter use during the AERA 2017 annual conference
-  url: https://rdcu.be/4jhu
-  author: D. J. Lemay, R. B. Basnet, T. Doleck, and P. Bazelais
-  pub_info: Education and Information Technologies, August 2018
 
 - title: Exploring Bimodality in Introductory Computer Science Performance Distributions
   url: pdfs/ExploringBimodality.pdf
