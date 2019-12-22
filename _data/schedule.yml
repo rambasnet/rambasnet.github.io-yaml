@@ -1,24 +1,5 @@
 - time: "8:00"
   classes:
-      - name: CS0 #M
-        loc: WS 120
-        css: schedule
-
-      - name: CS0-L #T
-        loc: WS 120
-        css: schedule
-
-      - name: CS0 #W
-        loc: WS 120
-        css: schedule
-
-      - name: CS0-L #R
-        loc: WS 120
-        css: schedule
-
-      - name: CS0 #F
-        loc: WS 120
-        css: schedule
 
 - time: "8:30"
   classes:
@@ -42,7 +23,7 @@
         css: officehour
 
       - name: Off. Hr. #F
-        loc: WS 116 (CRL)
+        loc: CH 321
         css: officehour
 
 - time: "9:30"
@@ -50,91 +31,77 @@
 
 - time: "10:00"
   classes:
-      - name: #M
-        loc:
-        css:
-
       - name: Off. Hr. #T
         loc: CH 321
         css: officehour
 
-      - name: #W
-        loc:
-        css:
+      - name: CS 3
+        loc: CH 315
+        css: schedule
+      
+      - name: Off. Hr. #W
+        loc: CH 321
+        css: officehour
 
-      - name: #R
-        loc:
-        css:
+      - name: CS 3
+        loc: CH 315
+        css: schedule
 
-      - name: #F
-        loc:
-        css:
+      - name: Off. Hr. #T
+        loc: CH 321
+        css: officehour
 
 - time: "10:30"
   classes:
 
 - time: "11:00"
   classes:
-      - name: Net/App Sec #
-        loc: WS 205
-        css: schedule
-      - name:
-        loc:
-        css:
-      - name: Net/App Sec #
-        loc: WS 205
-        css: schedule
-      - name:
-        loc:
-        css:
-      - name: Net/App Sec #
-        loc: WS 205
-        css: schedule
+      
 
 - time: "11:30"
   classes:
 
 - time: "12:00"
   classes:
-      - name: #T
-        loc:
-        css:
+      - name: CS0 #M
+        loc: WS 120
+        css: schedule
 
-      - name: #W
-        loc:
-        css:
+      - name: CS0-L #T
+        loc: WS 120
+        css: schedule
 
-      - name: #R
-        loc:
-        css:
+      - name: CS0 #W
+        loc: WS 120
+        css: schedule
 
-      - name: #F
-        loc:
-        css:
+      - name: CS0-L #R
+        loc: WS 120
+        css: schedule
 
-      - name: #F
-        loc:
-        css:
+      - name: CS0 #F
+        loc: WS 120
+        css: schedule
 
 - time: "12:30"
   classes:
 
 - time: "1:00"
   classes:
-      - name: CS 3
-        loc: CH 276
+      - name: Cybersec
+        loc: WS 118
         css: schedule
       - name:
         loc:
         css:
-      - name: CS 3
-        loc: CH 276
+      - name: Cybersec
+        loc: WS 118
         css: schedule
       - name:
         loc:
         css:
-      - name: CS 3
-        loc: CH 276
+      - name: Cybersec
+        loc: WS 118
         css: schedule
 
 - time: "1:30"
@@ -142,21 +109,21 @@
 
 - time: "2:00"
   classes:
-      - name: Off. Hr. #T
-        loc: CH 321
-        css: officehour
-
-      - name: #T
+      - name: #M
         loc:
         css:
+
+      - name: Off. Hr. #
+        loc: CH 321
+        css: officehour
 
       - name: #W
         loc:
         css:
 
-      - name: #R
-        loc:
-        css:
+      - name: Off. Hr. #H
+        loc: CH 321
+        css: officehour
 
       - name: #F
         loc:
