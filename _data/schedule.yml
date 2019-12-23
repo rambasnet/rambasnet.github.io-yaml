@@ -197,3 +197,11 @@
 
 - time: "4:30"
   classes:
+    - name: "" #M
+      loc: ""
+      css: ""
+      row_span: 1
+    - name: "" #W
+      loc: ""
+      css: ""
+      row_span: 1
