@@ -14,7 +14,7 @@ layout: default
             <ul class="list-group">
                 <li class="list-group-item">Cyber Security</li>
                 <li class="list-group-item">
-                    Python, C++, Java, Database, JavaScript
+                    Python, C++, Database, JavaScript, NodeJS
                 </li>
                 <li class="list-group-item">Data Science</li>
                 <li class="list-group-item">
@@ -37,7 +37,7 @@ layout: default
             <hr class="d-sm-none" />
         </div>
         <div class="col-sm-8">
-            <h2>CURRENT SCHEDULE</h2>
+            <h2>SPRING 2020 SCHEDULE</h2>
             <br />
             <div class="table-responsive-sm">
                 <table class="table table-sm table-bordered">
@@ -56,8 +56,8 @@ layout: default
                         <tr>
                             <th>{{ time.time }}</th>
                             {% for class in time.classes %}
-                            <td width="16%" class="{{ class.css }}" rowspan="2">
-                                {{ class.name }}<br />{{ class.loc }}
+                            <td width="16%" class="{{ class.css }}" rowspan="{{ class.row_span }}">
+                                {{ class.name }}<br />{{ class.loc }}<br />{{ class.time }}
                             </td>
                             {% endfor %}
                         </tr>
