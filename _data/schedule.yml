@@ -35,6 +35,18 @@
 
 - time: "11:00"
   classes:
+    - name: "" #M
+      loc: ""
+      css: ""
+      row_span: 2
+    - name: "" #W
+      loc: ""
+      css: ""
+      row_span: 2
+    - name: "" #F
+      loc: ""
+      css: ""
+      row_span: 2
       
 - time: "11:30"
   classes:
@@ -170,6 +182,18 @@
 
 - time: "4:00"
   classes:
+    - name: "" #M
+      loc: ""
+      css: ""
+      row_span: 2
+    - name: "" #W
+      loc: ""
+      css: ""
+      row_span: 2
+    - name: "" #F
+      loc: ""
+      css: ""
+      row_span: 2
 
 - time: "4:30"
   classes:
