@@ -54,31 +54,31 @@
 - time: "12:00"
   classes:
       - name: CS 0 #M
-        loc: WS 120
+        loc: WS 205
         time: 12-12:50
         css: schedule
         row_span: 2
 
       - name: CS 0-L #T
-        loc: WS 120
+        loc: WS 118
         time: 12-12:50
         css: schedule
         row_span: 2
 
       - name: CS 0 #W
-        loc: WS 120
+        loc: WS 205
         time: 12-12:50
         css: schedule
         row_span: 2
 
       - name: CS 0-L #R
-        loc: WS 120
+        loc: WS 118
         time: 12-12:50
         css: schedule
         row_span: 2
 
       - name: CS 0 #F
-        loc: WS 120
+        loc: WS 205
         time: 12-12:50
         css: schedule
         row_span: 2
