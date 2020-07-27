@@ -154,10 +154,6 @@
         css: schedule
         row_span: 2
 
-      - name: #F
-        loc:
-        css:
-        row_span: 2
 - time: "2:30"
   classes:
 
