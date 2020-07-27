@@ -1,16 +1,16 @@
 - time: "10:00"
   classes:
-      - name: Off. Hr. #T
+      - name: Off. Hr. #M
         loc: CH 321
         time: 10-10:50
         css: officehour
         row_span: 2
 
-      - name: CS 3
-        loc: CH 315
-        time: 10-11:15
+      - name: Adv. Python
+        loc: CH 276
+        time: 10-10:50
         css: schedule
-        row_span: 3
+        row_span: 2
       
       - name: Off. Hr. #W
         loc: CH 321
@@ -18,13 +18,13 @@
         css: officehour
         row_span: 2
 
-      - name: CS 3
-        loc: CH 315
-        time: 10-11:15
+      - name: Adv. Python
+        loc: CH 276
+        time: 10-10:50
         css: schedule
-        row_span: 3
+        row_span: 2
 
-      - name: Off. Hr. #T
+      - name: Off. Hr. #F
         loc: CH 321
         time: 10-10:50
         css: officehour
@@ -47,40 +47,48 @@
       loc: ""
       css: ""
       row_span: 2
-      
+    - name: "" #W
+      loc: ""
+      css: ""
+      row_span: 2
+    - name: "" #F
+      loc: ""
+      css: ""
+      row_span: 2
+
 - time: "11:30"
   classes:
 
 - time: "12:00"
   classes:
-      - name: CS 0 #M
-        loc: WS 205
+      - name: "CS 1" #M
+        loc: WS 120
         time: 12-12:50
         css: schedule
         row_span: 2
 
-      - name: CS 0-L #T
-        loc: WS 118
+      - name: CS 1 #T
+        loc: WS 120
         time: 12-12:50
         css: schedule
         row_span: 2
 
-      - name: CS 0 #W
-        loc: WS 205
+      - name: CS 1 #W
+        loc: WS 120
         time: 12-12:50
         css: schedule
         row_span: 2
 
-      - name: CS 0-L #R
-        loc: WS 118
+      - name: CS 1 #R
+        loc: WS 120
         time: 12-12:50
         css: schedule
         row_span: 2
 
-      - name: CS 0 #F
-        loc: WS 205
+      - name: Off. Hr. #F
+        loc: CH 321
         time: 12-12:50
-        css: schedule
+        css: officehour
         row_span: 2
 
 - time: "12:30"
@@ -88,29 +96,28 @@
 
 - time: "1:00"
   classes:
-      - name: Cybersec
-        loc: WS 118
-        time: 1-1:50
-        css: schedule
+      - name: ""
+        loc: ""
+        time: ""
+        css: ""
         row_span: 2
       - name:
         loc:
         css:
         row_span: 2
-
-      - name: Cybersec
-        loc: WS 118
-        time: 1-1:50
-        css: schedule
+      - name: ""
+        loc: ""
+        time: ""
+        css:
         row_span: 2
       - name:
         loc:
         css:
         row_span: 2
-      - name: Cybersec
-        loc: WS 118
-        time: 1-1:50
-        css: schedule
+      - name: ""
+        loc:
+        time:
+        css: 
         row_span: 2
 
 - time: "1:30"
@@ -118,9 +125,10 @@
 
 - time: "2:00"
   classes:
-      - name: #M
-        loc:
-        css:
+      - name: Net/App Sec #M
+        loc: WS 120
+        time: 2-2:50
+        css: schedule
         row_span: 2
 
       - name: Off. Hr. #T
@@ -129,22 +137,27 @@
         css: officehour
         row_span: 2
 
-      - name: #W
-        loc:
-        css:
+      - name: Net/App Sec #W
+        loc: WS 120
+        time: 2-2:50
+        css: schedule
         row_span: 2
 
-      - name: Off. Hr. #H
-        loc: CH 321
+      - name: #H
+        loc: 
+        time: 
+        css: 
+        row_span: 2
+      - name: Net/App Sec #F
+        loc: WS 120
         time: 2-2:50
-        css: officehour
+        css: schedule
         row_span: 2
 
       - name: #F
         loc:
         css:
         row_span: 2
-
 - time: "2:30"
   classes:
 
@@ -155,22 +168,22 @@
         css:
         row_span: 2
 
-      - name: Adv. JS #T
-        loc: CH 276
-        time: "3-4:15"
-        css: schedule
-        row_span: 3
+      - name: #T
+        loc: 
+        time:
+        css:
+        row_span: 2
 
       - name: #W
         loc:
         css:
         row_span: 2   
 
-      - name: Adv. JS #T
-        loc: CH 276
-        time: "3-4:15"
-        css: schedule
-        row_span: 3
+      - name:  #T
+        loc: 
+        time: 
+        css: 
+        row_span: 2
 
       - name: #F
         loc:
@@ -194,14 +207,14 @@
       loc: ""
       css: ""
       row_span: 2
-
-- time: "4:30"
-  classes:
-    - name: "" #M
-      loc: ""
-      css: ""
-      row_span: 1
     - name: "" #W
       loc: ""
       css: ""
-      row_span: 1
+      row_span: 2
+    - name: "" #F
+      loc: ""
+      css: ""
+      row_span: 2
+
+- time: "4:30"
+  classes:

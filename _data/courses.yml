@@ -1,9 +1,9 @@
 - course: "CSCI 106: Web1 - Web Page Design I"
   times: 6
 - course: "CSCI 110: Beg. Prog. Python & Lab"
-  times: 7
+  times: 8
 - course: "CSCI 111: CS1 - Foundation of CS"
-  times: 7
+  times: 8
 - course: "CSCI 112: CS2 - Data Structures"
   times: 7
 - course: "CSCI 206: Web2 - Web Page Design II"
@@ -11,7 +11,7 @@
 - course: "CSCI 250: CS3 - Intro to Algorithms"
   times: 3
 - course: "CSCI 310: Adv. Prog. Python"
-  times: 7
+  times: 8
 - course: "CSCI 310: Adv. Prog. JavaScript"
   times: 1
 - course: "CSCI 370: Computer Security"
@@ -19,4 +19,4 @@
 - course: "CSCI 420: Cybersecurity"
   times: 6
 - course: "CSCI 465: Net/App Security"
-  times: 5
+  times: 6
